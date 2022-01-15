@@ -1,0 +1,242 @@
+/* CSS MEDIA QUERIES */
+
+/* Large Devices */
+@media (min-width : 1200px){
+    .site-nav-wrapper{
+        padding: 0 20px;
+    }
+}
+/* Medium Devices */
+@media (min-width : 992px) and (max-width : 1199px){
+    .site-nav-wrapper{
+        padding: 0 20px;
+    }
+    .vertical-heading h2{
+        font-size: 29px;
+    }
+    #services-tab .tab-bg{
+        padding: 16px 30px;
+    }
+    .service-tab p{
+        line-height: 20px;
+    }
+}
+/* Small Devices */
+@media (min-width : 768px) and (max-width : 991px){
+    .site-nav-wrapper{
+        padding: 0;
+    }
+    #home-heading h1{
+        font-size: 41px;
+    }
+    #home-text p{
+        font-size: 13px;
+    }
+    .btn-general{
+        padding: 8px 35px 8px 35px;
+    }
+    .vertical-heading{
+        font-size: 29px;
+    }
+    #tech-statement h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .r-tabs-accordion-title a{
+        font-family: "Raleway",sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    .stats-item p{
+        line-height: 15px;
+    }
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    .blog-post .post-meta p{
+        line-height: 14px;
+    }
+}
+/* Extra Small Devices */
+@media (max-width : 768px){
+    .site-nav-wrapper, .white-nav-top{
+        padding: 0;
+    }
+    #mobile-nav-open-btn{
+        font-size: 30px;
+        color: #F4C613;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        top: 6px;
+        display: block;
+    }
+    #home-heading h1{
+        font-size: 22px;
+    }
+    #home-text p{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+    .btn-general{
+        padding: 8px 25px 6px 25px;
+        font-size: 10px;
+    }
+    .content-box-lg{
+        padding: 90px 0;
+    }
+    .content-box-md{
+        padding: 80px 0;
+    }
+    .about-item{
+        padding: 55px 30px;
+        margin-bottom: 35px;
+    }
+    .about-item i{
+        font-size: 30px;
+    }
+    .about-item h3{
+        font-size: 18px;
+    }
+    .skill h4{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .horizontal-heading{
+        margin-bottom: 40px;
+    }
+    .horizontal-heading h2{
+        font-size: 30px;
+    }
+    #services-01 img{
+        margin: 35px 0;
+    }
+    .service, .service .icon{
+        text-align: center;
+    }
+    .service h4{
+        font-size: 18px;
+    }
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .r-tabs-accordion-title a{
+        font-family: "Raleway",sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    #services-tabs .tab-bg{
+        text-align: center;
+    }
+    #services-tabs h2{
+        font-size: 40px;
+    }
+    #services-tabs h3{
+        font-size: 28px;
+    }
+    #portfolio{
+        padding-bottom: 0;
+    }
+    #testimonial{
+        padding-top: 45px;
+    }
+    #testimonial-slider{
+        top: 0;
+    }
+    .author img{
+        width: 80px !important;
+    }
+    .pricing-table{
+        margin-bottom: 30px;
+    }
+    .pricing-table .price h2{
+        font-size: 28px;
+        margin: 0 0 0 16px;
+    }
+    .stats-item{
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+    .stats-item i{
+        font-size: 30px;
+    }
+    .stats-item h3{
+        font-size: 24px;
+    }
+    #blog-left{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .blog-post{
+        margin-bottom: 25px;
+    }
+    #contact-left{
+        text-align: center;
+    }
+    .office{
+        margin-bottom: 40px;
+    }
+    ul.office-details li{
+        display: block;
+        margin-top: 25px;
+    }
+    ul.office-details li i{
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
+    }
+    ul.social-list{
+        margin-bottom: 40px;
+    }
+    
+}
+/* Extra Small Devices 02 */
+@media (max-width : 480px){
+    #home-heading h1{
+        font-size: 18px;
+    }
+    #home-text p{
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+    .vertical-heading h2{
+        font-size: 22px;
+    }
+    #isotope-filters button{
+        font-size: 10px;
+        padding-right: 14px;
+    }
+    .testimonial h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .testimonial .stars{
+        font-size: 13px;
+    }
+}
+@media (max-width :320px){
+    .testimonial h3{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .testimonial .stars{
+        font-size: 10px;
+    }
+}
